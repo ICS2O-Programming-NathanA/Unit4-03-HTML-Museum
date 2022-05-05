@@ -33,10 +33,10 @@ function displayCost() {
 	}
 	//If age is bigger then 0 and they are not in the age group for other discounts and it us not tuesday or thursday then they pay regular price
 	else if ((age > 0) || (day != "")) {		
-		cost = "You have to pay regular price."
+		cost = "You have to pay a regular price."
 	}
 
-	//Other wise they haven't entered their age or picked a weekday
+	//Otherwise they haven't entered their age or picked a weekday
 	else {		
 		cost = "Enter your information above."
 	}
