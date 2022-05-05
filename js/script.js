@@ -27,7 +27,7 @@ function displayCost() {
 	else if (age >=12 && age <=21){
 		cost = "You get a student discount!"
 	}
-	//If it is tuesday or thrusday then they get a free ticket
+	//If it is tuesday or thursday then they get a free ticket
 	else if (day == "Tuesday" || day == "Thursday") {
 		cost = "Today is a free day at the museum!"
 	}
